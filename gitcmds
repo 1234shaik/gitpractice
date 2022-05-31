@@ -59,7 +59,9 @@ git remote add origin https://github.com/1234shaik/gitpractice.git --> by perman
 git push -u origin (master or main)
 git pull
 
+sigle file move to another branch
 git cherry-pick commitid --> on which branch have to move the file we have to checkput that branch (for single comit wil move to another branch)
+                         --> move to that branch and use the cmd
 git push
 
 touch file
