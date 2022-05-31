@@ -61,3 +61,7 @@ git pull
 
 git cherry-pick commitid --> on which branch have to move the file we have to checkput that branch (for single comit wil move to another branch)
 git push
+
+
+git reset hard otigin/maaster --> it reset the local repo upto latest pull
+git revert commitid --> 
