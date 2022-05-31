@@ -55,4 +55,5 @@ git add .
 git commit -m "anymessage"
 git remote add origin https://github.com/1234shaik/gitpractice.git --> by permanently add the url
 git push -u origin (master or main)
+git pull
 
