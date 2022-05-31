@@ -69,3 +69,6 @@ git reset hard otigin/maaster --> it reset the local repo upto latest pull
 
 git revert commitid --> it will delete the changes what you have been committed
 
+git tag -a v1.0 -m "message" 
+git tag
+git push
