@@ -1,0 +1,25 @@
+git clone https://github.com/1234shaik/gitpractice.git
+touch file --> to create the file
+git add . --> to add the file in that repo
+git commit -m "new file" --> commit to staging the file
+git push https://github.com/1234shaik/gitpractice.git --> to push the remote repo
+git status --> to check the status
+git branch -b branchname --> to create the branch 
+git checckout -b branchname --> to creat the branch and jump to that branch 
+git branch --. to check the branch list
+git branch –r show the remote branches
+git branch –ashow local and remote branches
+git log --> to check the commit logs
+cat .git/config - to check the configurtion
+touch file
+git stash --> the file will be in stasing , bcoz of any another work to changes in urg so that will keep the file in stashing list.
+git statsh list --> to check the list of stasing
+git fetch --> it shows changes in remote repo but it not refelect in our local machine 
+git merge --> it will reflect the in our local machine
+git pull --> any checnges in remo repo will pull in our local machine
+git rebase -i HEAD-3 --> last 3 commit will be move in last commit.
+mkdir foldername
+cd foldername
+git init
+git push --origin https://github.com/1234shaik/gitpractice.git
+
