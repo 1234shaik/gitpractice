@@ -7,6 +7,8 @@ git push https://github.com/1234shaik/gitpractice.git --> to push the remote rep
 git status --> to check the status
 
 git branch  branchname --> to create the branch 
+git checkout branchname --> jump to that branch.
+git pull --> then pull that from remo repo
 git checckout -b branchname --> to creat the branch and jump to that branch
 git branch -D branchname --> it will delete the branch in our local machine.
 git push --delete origin branchname – delete the remote repo
@@ -32,6 +34,10 @@ git merge --> it merge the files
 git pull --> any checnges in remo repo will pull in our local machine
 
 git rebase -i HEAD-3 --> last 3 commit will be move in last commit.
+
+
+git config --global user.name "yourname" - ->authinating to git hub
+git config --global usr.email "yormailid" - ->authinating to git hub
 
 mkdir foldername
 cd foldername
