@@ -6,6 +6,7 @@ git push https://github.com/1234shaik/gitpractice.git --> to push the remote rep
 
 git status --> to check the status
 
+Branch creation
 git branch  branchname --> to create the branch 
 git checkout branchname --> jump to that branch.
 git pull --> then pull that from remo repo
@@ -20,6 +21,7 @@ git log --> to check the commit logs
 
 cat .git/config - to check the configurtion
 
+stashing -to save file temp area 
 touch file
 git stash --> the file will be in stasing , bcoz of any another work to changes in urg so that will keep the file in stashing list.
 git statsh list --> to check the list of stasing
@@ -57,3 +59,5 @@ git remote add origin https://github.com/1234shaik/gitpractice.git --> by perman
 git push -u origin (master or main)
 git pull
 
+git cherry-pick commitid --> on which branch have to move the file we have to checkput that branch (for single comit wil move to another branch)
+git push
