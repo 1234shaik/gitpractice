@@ -7,8 +7,8 @@ git status --> to check the status
 git branch -b branchname --> to create the branch 
 git checckout -b branchname --> to creat the branch and jump to that branch 
 git branch --. to check the branch list
-git branch –r show the remote branches
-git branch –ashow local and remote branches
+git branch –r -->show the remote branches
+git branch –a --> show local and remote branches
 git log --> to check the commit logs
 cat .git/config - to check the configurtion
 touch file
@@ -20,6 +20,9 @@ git pull --> any checnges in remo repo will pull in our local machine
 git rebase -i HEAD-3 --> last 3 commit will be move in last commit.
 mkdir foldername
 cd foldername
-git init
-git push --origin https://github.com/1234shaik/gitpractice.git
+git init --> to configure the git 
+touch file
+git add .
+git remote add origin https://github.com/1234shaik/gitpractice.git --> by permanently add the url
+git push -u origin (master or main)
 
