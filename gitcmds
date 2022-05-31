@@ -41,6 +41,10 @@ git add .
 git commit -m "message"
 git push
 git pull
+git add . -->again use git add .cmd after remove the conflict.
+git commit -m "message"
+git pull
+git push
 
 git rebase -i HEAD-3 --> last 3 commit will be move in last commit.
 
