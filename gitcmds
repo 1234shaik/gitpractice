@@ -33,6 +33,13 @@ git fetch --> it shows changes in remote repo but it not refelect in our local m
 git merge --> it merge the files
 git pull --> any checnges in remo repo will pull in our local machine
 
+
+touch filename --> on same file and same line working and push the file to remo repo
+git add .
+git commit -m "message"
+git push
+git pull
+
 git rebase -i HEAD-3 --> last 3 commit will be move in last commit.
 
 
