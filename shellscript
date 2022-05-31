@@ -1,0 +1,19 @@
+#! /bin/bash
+
+declare -A map
+
+map["prac1"]="practice1"
+map["prac2"]="practice2"
+
+git init
+git checkput -b branchname
+git add filename
+
+for i in "${!map[@]}"
+
+do
+
+  git remote add $i scm/${map[$i]}.git
+  git push -u $i brnahname 
+
+done
