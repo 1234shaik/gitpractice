@@ -33,7 +33,7 @@ git fetch --> it shows changes in remote repo but it not refelect in our local m
 git merge --> it merge the files
 git pull --> any checnges in remo repo will pull in our local machine
 
-
+conflict
 touch filename --> on same file and same line working and push the file to remo repo
 git add .
 git commit -m "message"
