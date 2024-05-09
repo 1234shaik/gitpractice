@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("scm") {
             steps {
-                git clone git@github.com:1234shaik/gitpractice.git
+                git ' https://github.com/1234shaik/gitpractice.git '
             }
         }
     }
