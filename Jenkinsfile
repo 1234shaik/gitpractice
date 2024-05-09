@@ -6,5 +6,10 @@ pipeline {
                 git ' https://github.com/1234shaik/gitpractice.git '
             }
         }
+        stage ("build") {
+            steps {
+                echo build
+            }
+        }
     }
 }
